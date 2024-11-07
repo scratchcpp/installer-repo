@@ -1,0 +1,36 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.microsoft.vcredist</Name>
+  <DisplayName>Microsoft Visual C++ Redistributable</DisplayName>
+  <Description>Installs the Visual C++ redistributables</Description>
+  <Version>14.29.30139</Version>
+  <ReleaseDate>2019-04-02</ReleaseDate>
+  <Virtual>true</Virtual>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="23676277" OS="Any" UncompressedSize="25332256"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <UserInterfaces>page.ui</UserInterfaces>
+  <SHA1>645fabf4f40ea91a02bf288706069fde80f996a8</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.scratchcpp.player</Name>
+  <DisplayName>ScratchCPP Player</DisplayName>
+  <Description>C++-based Scratch project player</Description>
+  <Dependencies>com.microsoft.vcredist</Dependencies>
+  <Version>0.5.0</Version>
+  <ReleaseDate>2024-11-07</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="28486519" OS="Any" UncompressedSize="112299547"/>
+  <DownloadableArchives>ScratchCPP Player.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license.txt" name="GNU General Public License Agreement"/>
+  </Licenses>
+  <SHA1>f7ae444ce04e036ab259e48f09fd83b878ad46bb</SHA1>
+ </PackageUpdate>
+ <SHA1>0caf8d9d76e7a1dbab0660c57294ed61d32c27df</SHA1>
+ <MetadataName>2024-11-07-1851_meta.7z</MetadataName>
+</Updates>
